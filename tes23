@@ -1796,7 +1796,7 @@ do
         end
         --
         function window:Watermark(info)
-            window.watermark = {visible = false}
+            window.watermark = {visible = true}
             --
             local info = info or {}
             local watermark_name = info.name or info.Name or info.title or info.Title or string.format("Loading", 1, 100, 200)
@@ -1918,7 +1918,7 @@ do
         end
         --
         function window:KeybindsList(info)
-            window.keybindslist = {visible = false, keybinds = {}}
+            window.keybindslist = {visible = true, keybinds = {}}
             --
             local info = info or {}
             --
@@ -2150,7 +2150,7 @@ do
         end
         --
         function window:StatusList(info)
-            window.statuslist = {visible = false, statuses = {}}
+            window.statuslist = {visible = true, statuses = {}}
             --
             local info = info or {}
             --
