@@ -1120,7 +1120,7 @@ do
             local esppreview_title = utility:Create("TextLabel", {Vector2.new(4,2), esppreview_inner}, {
                 Text = "Client Stats",
                 Size = theme.textsize,
-                Visible = true,
+                Visible = false,
                 Font = theme.font,
                 Color = theme.textcolor,
                 OutlineColor = theme.textborder,
